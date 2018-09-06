@@ -18,6 +18,9 @@ public class placeManager : MonoBehaviour {
 		for (int i = 0; i < inventory.slots.Length; i++) {
 		inventory.isFull [i] = false;
 			inventory.objects [i] = null;
+			inventory.LocationAdded [i] = false;
+			inventory.InventorySprite [i] = null;
+			pickUpManager.SpritePopUp.SetActive (false);
 			//Will need to switch this for a general variable
 
 

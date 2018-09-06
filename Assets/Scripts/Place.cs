@@ -23,7 +23,7 @@ public class Place : MonoBehaviour {
 
 	void OnTriggerStay(Collider other) {
 		if (other.CompareTag ("Player")) {
-			if (InventoryManager.ActionKeyOne == true) {
+			if (InventoryManager.ActionKeyOne == false) {
 			
 				for (int i = 0; i < inventory.LocationAdded.Length; i++) {
 					if (inventory.LocationAdded [i] == false) {
