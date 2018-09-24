@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/openingscreen.unity
+- path: Assets/UT - Room gen/roomGen.unity
   isLoaded: 1
   isActive: 1
